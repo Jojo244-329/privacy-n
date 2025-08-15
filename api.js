@@ -65,7 +65,7 @@ app.post('/api/gerar-pix', async (req, res) => {
     shipping: {
       fee: 0,
       address: {
-        street: req.body.rua || "Rua Desconhecida",
+        street: req.body.rua || "Rua Augusta",
         streetNumber: "SN",
         complement: "",
         zipCode: req.body.cep || "00000000",
